@@ -102,4 +102,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ![image](https://github.com/tusharendrak/HackNC2023/assets/110748078/7d7d7c97-c45c-466e-bc12-889a46ebbbd9)
 ![image](https://github.com/tusharendrak/HackNC2023/assets/110748078/84fc4292-e249-4bc9-8a6d-23f9148757be)
 
-screenshots of the android app. We also have made a web app dashboard for the admin to retrive and delete clusters.
+screenshots of the android app. We also have made a web app dashboard for the admin to retrive and delete clusters, All of which happens in real time in the db and UI.
+![image](https://github.com/tusharendrak/HackNC2023/assets/110748078/14b4fd6a-ec94-4593-8d44-f573c910b99a)
+
+There's also a trained ML model which classifies the road images are true or false to help with fraud detection.
