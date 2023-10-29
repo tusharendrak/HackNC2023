@@ -11,3 +11,54 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+/* styles.css */
+.data-card {
+  border: 1px solid #ddd;
+  padding: 16px;
+  margin: 16px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.data-card img {
+  max-width: 100%;
+  height: auto;
+}
+/* Add this CSS for the 3x3 grid layout */
+.data-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 16px; /* Adjust the gap as needed */
+}
+
+/* Style for each individual DataCard */
+.data-container > * {
+  flex: 0 1 calc(33.33% - 16px); /* Each card occupies 33.33% width with a 16px gap */
+  max-width: calc(33.33% - 16px); /* Limit the max-width to maintain the grid layout */
+}
+
+h1 {
+  color: rgb(10, 0, 0); /* Set the text color for the h1 */
+  text-align: center;
+  padding: 20px;
+  font-size: 32px;
+}
+
+body {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-color: rgb(237, 216, 216); /* Set your background color */
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.data-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px; /* Add padding for better spacing */
+}
