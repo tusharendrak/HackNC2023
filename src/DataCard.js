@@ -38,11 +38,12 @@ function DataCard({ data, onDelete }) {
 
         <img src={imageUrl} alt={description} className="card-img-top rounded" style={imageStyle} />
         <div className="card-body">
-          <h5 className="card-title">Date : {date}</h5>
-          <p className="card-text text-muted">Description : {description}</p>
-          <p className="card-text text-muted">Latitude : {lattitude}</p>
-          <p className="card-text text-muted">Longitude : {longitude}</p>
+          <h5 className="card-title"> {description}</h5>
           <p className="card-text text-muted">Address : {addressLine1}</p>
+          <p className="card-text text-muted">Date : {date}</p>
+          {/* <p className="card-text text-muted">Latitude : {lattitude}</p>
+          <p className="card-text text-muted">Longitude : {longitude}</p> */}
+
         </div>
         <div className="card-footer" style={footerStyle}>
           <button onClick={handleDelete} className="btn btn-danger btn-block">Fix this cluster</button>

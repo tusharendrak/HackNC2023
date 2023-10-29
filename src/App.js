@@ -91,13 +91,15 @@ function App() {
   return (
     <div className="App container mt-4" style={{ backgroundColor: BACKGROUND_COLOR, borderRadius: '8px', boxShadow: '0 4px 12px rgba(0, 0, 0, 0.1)' }}>
      <a href="http://localhost:3000" style={{ textDecoration: 'none', color: 'inherit' }}>
-      <h1>MapSpotter</h1>
+      <h1>
+      {/* <img src="crow.svg" alt="Logo" style={{ verticalAlign: 'middle' }} /> */}
+        HackNC</h1>
     </a>
       <nav className="navbar navbar-expand-lg navbar-light bg-light" style={{ backgroundColor: NAVBAR_COLOR, borderRadius: '8px' }}>
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav mr-auto">
             <li className={`nav-item ${activeTab === 'reports' ? 'active' : ''}`}>
-              <a className="nav-link" href="#" style={{ color: PRIMARY_COLOR }} onClick={(e) => { e.preventDefault(); setActiveTab('reports'); }}>Reports</a>
+              <a className="nav-link " href="#" style={{ color: PRIMARY_COLOR }} onClick={(e) => { e.preventDefault(); setActiveTab('reports'); }}>Reports</a>
             </li>
             <li className={`nav-item ${activeTab === 'maps' ? 'active' : ''}`}>
               <a className="nav-link" href="#" style={{ color: PRIMARY_COLOR }} onClick={(e) => { e.preventDefault(); setActiveTab('maps'); }}>Maps</a>
