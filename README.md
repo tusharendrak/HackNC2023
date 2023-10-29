@@ -2,6 +2,33 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Road Issues Reporting Application
+
+## Description
+Our application streamlines the process of reporting road issues. With just a single tap, users can take a picture of a pothole or damaged road, and the app will automatically log its location. This effortless process ensures that even the busiest individuals can contribute to the community's safety.
+
+For administrators and officials, a real-time dashboard showcases these reports, allowing swift and efficient actions. Once the issues are addressed, they can be marked as 'fixed', updating the database and informing the users about the rectified problem.
+
+**Unique Features**:
+- **De-duplication System**: Our application has the ability to auto-remove duplicate reports or those within a 10m-100m radius, working on the assumption that nearby issues get resolved simultaneously.
+  
+- **Machine Learning Integration**: We've incorporated a machine learning model that meticulously scans every submission. This model filters out irrelevant or inappropriate submissions based on advanced image analysis, ensuring the quality and relevance of reports.
+
+## Getting Started
+
+To get the project up and running on your local machine, follow these steps:
+
+### Prerequisites
+
+Ensure you have [Node.js](https://nodejs.org/) and npm installed.
+
+### Installation and Running
+
+1. **Clone the Repository**
+   ```bash
+   git clone [URL-of-this-repository]
+
+
 ## Available Scripts
 
 In the project directory, you can run:
