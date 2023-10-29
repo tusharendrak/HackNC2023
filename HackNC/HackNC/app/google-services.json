@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "682949610844",
+    "project_id": "hacknc2023",
+    "storage_bucket": "hacknc2023.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:682949610844:android:0f490a089e61278a13c599",
+        "android_client_info": {
+          "package_name": "com.example.hacknc"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDjrERSBjDxjJZTxhtuBdXMjZGLHxXqUI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
