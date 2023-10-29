@@ -98,3 +98,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![image](https://github.com/tusharendrak/HackNC2023/assets/110748078/4bd704d9-a30a-4563-80bd-bdd0bb7ea926)
+![image](https://github.com/tusharendrak/HackNC2023/assets/110748078/7d7d7c97-c45c-466e-bc12-889a46ebbbd9)
+![image](https://github.com/tusharendrak/HackNC2023/assets/110748078/84fc4292-e249-4bc9-8a6d-23f9148757be)
+
+screenshots of the android app. We also have made a web app dashboard for the admin to retrive and delete clusters.
