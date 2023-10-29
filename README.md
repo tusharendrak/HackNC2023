@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# Road Issues Reporting Application
+# Road Guardian
 
 ## Description
 Our application streamlines the process of reporting road issues. With just a single tap, users can take a picture of a pothole or damaged road, and the app will automatically log its location. This effortless process ensures that even the busiest individuals can contribute to the community's safety.
@@ -25,9 +25,12 @@ Ensure you have [Node.js](https://nodejs.org/) and npm installed.
 ### Installation and Running
 
 1. **Clone the Repository**
-   ```bash
-   git clone [URL-of-this-repository]
 
+2. **Install Dependencies**
+   npm install 
+
+3. **Start the application**
+  npm start
 
 ## Available Scripts
 
